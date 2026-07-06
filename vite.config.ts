@@ -12,14 +12,15 @@ export default defineConfig({
       entry: resolve(projectRoot, "src/index.ts"),
       name: "ReactBanglaPayIcons",
       formats: ["es", "umd"],
-      fileName: (format) => `index.${format === "es" ? "es.js" : "umd.js"}`,
+      fileName: (format: string) =>
+        `index.${format === "es" ? "es.js" : "umd.js"}`,
     },
-        rollupOptions: {
+    rollupOptions: {
       external: [
-        "react", 
-        "react-dom", 
-        "react/jsx-runtime", 
-        "react/jsx-dev-runtime"
+        "react",
+        "react-dom",
+        "react/jsx-runtime",
+        "react/jsx-dev-runtime",
       ],
       output: {
         globals: {
@@ -30,6 +31,5 @@ export default defineConfig({
         },
       },
     },
-
   },
 });
