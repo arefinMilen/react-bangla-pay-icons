@@ -30,9 +30,13 @@
     "bkash",
     "nagad",
     "rocket",
+    "upay",
+    "bangla-qr",
     "bangladesh",
     "mfs",
-    "payment-icons"
+    "mobile-money",
+    "payment-icons",
+    "svg-icons"
   ],
   "author": "Your Name",
   "license": "MIT",

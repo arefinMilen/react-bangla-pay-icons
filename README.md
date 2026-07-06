@@ -1,6 +1,6 @@
 # react-bangla-pay-icons
 
-A collection of clean, lightweight, and vectorized React SVG icons for Bangladeshi Mobile Financial Services (MFS) payment gateways such as bKash, Nagad, and Rocket.
+A collection of clean, lightweight, and vectorized React SVG icons for Bangladeshi Mobile Financial Services (MFS) payment gateways such as bKash, Nagad, Rocket, Upay, and BanglaQR support.
 
 These icons are optimized for React, Next.js, and modern bundlers.
 
@@ -30,7 +30,7 @@ Import the icons directly into your React or Next.js component:
 
 ```tsx
 import React from 'react';
-import { Bkash, Nagad, Rocket } from 'react-bangla-pay-icons';
+import { Bkash, Nagad, Rocket, Upay, BanglaQr } from 'react-bangla-pay-icons';
 
 function CheckoutPage() {
   return (
@@ -47,6 +47,14 @@ function CheckoutPage() {
 
       <button>
         <Rocket height={48} /> Pay with Rocket
+      </button>
+
+      <button>
+        <Upay /> Pay with Upay
+      </button>
+
+      <button>
+        <BanglaQr /> Show QR Code
       </button>
     </div>
   );
