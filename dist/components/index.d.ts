@@ -1,5 +1,13 @@
 export { default as BanglaQr } from './BanglaQr';
 export { default as Bkash } from './Bkash';
+export { default as Cellfin } from './Cellfin';
+export { default as IslamicWallet } from './IslamicWallet';
+export { default as MeghnaPay } from './MeghnaPay';
 export { default as Nagad } from './Nagad';
+export { default as PathaoPay } from './PathaoPay';
+export { default as Pocket } from './Pocket';
 export { default as Rocket } from './Rocket';
+export { default as Shamadhan } from './Shamadhan';
+export { default as Tap } from './Tap';
 export { default as Upay } from './Upay';
+export { default as Wallet } from './Wallet';

@@ -1,8 +1,28 @@
 # react-bangla-pay-icons
 
-A collection of clean, lightweight, and vectorized React SVG icons for Bangladeshi Mobile Financial Services (MFS) payment gateways such as bKash, Nagad, Rocket, Upay, and BanglaQR support.
+A collection of clean, lightweight, and vectorized React SVG icons for Bangladeshi Mobile Financial Services (MFS) and payment gateways such as bKash, Nagad, Rocket, Upay, Cellfin, Tap, Pathao Pay, and more.
 
-These icons are optimized for React, Next.js, and modern bundlers.
+These icons are optimized for React, Next.js, and modern bundlers. They are fully tree-shakeable, typed with TypeScript, and scale to any size via standard SVG props.
+
+## Available Icons
+
+This package currently ships **13 icons**. Each is exported as a named React component (PascalCase):
+
+| Component | Payment Service |
+| --- | --- |
+| `Bkash` | bKash |
+| `Nagad` | Nagad |
+| `Rocket` | Rocket (DBBL) |
+| `Upay` | Upay |
+| `BanglaQr` | Bangla QR |
+| `Cellfin` | CellFin |
+| `IslamicWallet` | Islamic Wallet |
+| `MeghnaPay` | Meghna Pay |
+| `PathaoPay` | Pathao Pay |
+| `Pocket` | Pocket |
+| `Shamadhan` | Shamadhan |
+| `Tap` | Tap |
+| `Wallet` | Wallet |
 
 ## Installation
 
@@ -30,7 +50,16 @@ Import the icons directly into your React or Next.js component:
 
 ```tsx
 import React from 'react';
-import { Bkash, Nagad, Rocket, Upay, BanglaQr } from 'react-bangla-pay-icons';
+import {
+  Bkash,
+  Nagad,
+  Rocket,
+  Upay,
+  BanglaQr,
+  Cellfin,
+  Tap,
+  PathaoPay,
+} from 'react-bangla-pay-icons';
 
 function CheckoutPage() {
   return (
@@ -51,6 +80,18 @@ function CheckoutPage() {
 
       <button>
         <Upay /> Pay with Upay
+      </button>
+
+      <button>
+        <Cellfin /> Pay with CellFin
+      </button>
+
+      <button>
+        <Tap /> Pay with Tap
+      </button>
+
+      <button>
+        <PathaoPay /> Pay with Pathao Pay
       </button>
 
       <button>
