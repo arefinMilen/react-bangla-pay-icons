@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 const SvgPocket = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="8.634 49 114.366 33.273" width="1em" height="1em" {...props}>
     <path
       fill="#B89F60"
       d="m21 49 2.25 1c2.889 1.228 2.889 1.228 6.75 1a141 141 0 0 1 5 5l3.129 1.54C41 60 41 60 41.533 62.161c.167 2.678.138 5.282.03 7.963l-.006 2.785c-.1 4.99-.1 4.99-.557 7.09-3.454 2.302-4.805 2.257-8.875 2.266l-3.484.007L25 82.25l-3.64.023-3.485-.007-3.195-.007C12 82 12 82 9 80c-.372-2.031-.372-2.031-.363-4.5l.002-2.687L8.688 70l-.01-2.812C8.733 60.267 8.733 60.267 11 58l1.922-.371c2.836-.859 3.652-2.292 5.328-4.691l1.578-2.223z"

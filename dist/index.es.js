@@ -361,6 +361,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), i = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "0 0 250 158",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -420,6 +421,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), a = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "0 -0.398 100.1 122.398",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -795,6 +797,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), o = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "0 0 250 347",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -826,6 +829,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), s = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "5.183 45.771 122.817 45.229",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -953,6 +957,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), c = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "14 4 104.188 115.26",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -1132,6 +1137,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), l = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "13.971 33 103.029 65.214",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -1247,6 +1253,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), u = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "38 7 63.346 116.249",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -1278,6 +1285,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), d = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "8.634 49 114.366 33.273",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -1457,6 +1465,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), f = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "0 0 300 390",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -1576,6 +1585,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), p = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "14.264 9.812 96.514 110.188",
 	width: "1em",
 	height: "1em",
 	...n,
@@ -1791,6 +1801,7 @@ var n = (n) => /* @__PURE__ */ e("svg", {
 	]
 }), m = (n) => /* @__PURE__ */ t("svg", {
 	xmlns: "http://www.w3.org/2000/svg",
+	viewBox: "26 11.5 85 99.5",
 	width: "1em",
 	height: "1em",
 	...n,
