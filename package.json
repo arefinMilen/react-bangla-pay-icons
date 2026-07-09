@@ -1,6 +1,6 @@
 {
   "name": "react-bangla-pay-icons",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React component icons for Bangladeshi MFS payments (bKash, Nagad, Rocket, and more)",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
